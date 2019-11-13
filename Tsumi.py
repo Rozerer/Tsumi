@@ -13,7 +13,9 @@ from selenium.webdriver.firefox.options import Options
 
 startUrl = 'https://www.instagram.com/accounts/login/'
 
-bot = telebot.TeleBot('812478134:AAE_Tstk_3KDADmwvZUCBFdL-mQNRL1Gx6k')
+token = ''
+
+bot = telebot.TeleBot(token)
 
 with open('/home/user1/Tsumi/TsumiUsersDB.json') as json_file:
 #with open('TsumiUsersDB.json') as json_file:
